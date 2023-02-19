@@ -25,11 +25,12 @@ if (c + d != 17)
 putchar(',');
 putchar(' ');
 }
-}
+
 c++;
 }
 d++;
 }
 putchar('\n');
+}
 return (0);
 }
