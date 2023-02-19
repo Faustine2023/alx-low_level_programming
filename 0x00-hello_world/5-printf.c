@@ -1,5 +1,5 @@
-#include <stdio>
-/***
+#include <stdio.h>
+/**
  * main - A program that print a ine using the printf function
  * Return:0 (Succesful!)
  */
