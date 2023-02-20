@@ -7,30 +7,15 @@
 */
 int main(void)
 {
-int c;
-int d = 0;
+int d;
+char low;
 
-while (d < 10)
-{
-c = 0;
-while (c < 10)
-{
-if (d != c && d < c)
-{
-putchar('0' + d);
-putchar('0' + c);
+for (d= '0'; d<= '9'; d++)
+putchar(d);
 
-if (c + d != 17)
-{
-putchar(',');
-putchar(' ');
-}
-
-}
-c++;
-}
-d++;
-}
+for (low = 'a'; low <= 'f'; low++)
+putchar(low);
 putchar('\n');
+
 return (0);
 }
